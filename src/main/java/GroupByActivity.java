@@ -32,10 +32,6 @@ import java.util.Map;
  *      FROM employees
  *      GROUP BY manager
  *      ORDER BY AVG(salary) DESC
- *
- *
- * Additional Reference if needed: https://www.w3schools.com/sql/sql_groupby.asp
- *
  */
 public class GroupByActivity {
     /**
