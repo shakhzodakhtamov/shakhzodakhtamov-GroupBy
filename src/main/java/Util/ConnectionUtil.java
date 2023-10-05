@@ -6,7 +6,7 @@ import java.sql.SQLException;
 
 /**
  * The ConnectionUtil class will be utilized to create an active connection to our database. This class utilizes the singleton design pattern.
- * We will be utilizing an in-memory called h2database for the sql demos.
+ * We will be utilizing an in-memory called h2database for the sql demos. 
  */
 public class ConnectionUtil {
     //url will represent our connection string. Since this is an in-memory db, we will represent a file location to store the data

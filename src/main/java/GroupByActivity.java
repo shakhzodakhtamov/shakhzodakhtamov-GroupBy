@@ -54,7 +54,7 @@ public class GroupByActivity {
          *
          * HINT: You should avoid using the wild card (*) in your statement. All projected columns must either be used
          * in the GROUP BY clause or an aggregate function.
-         */
+         */ 
         String sql = FileUtil.parseSQLFile("problem1.sql");
 
         Map<String, Integer> counts = new HashMap<>();
